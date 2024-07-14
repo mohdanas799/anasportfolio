@@ -4,7 +4,7 @@ import React from 'react';
 import Head from 'next/head';
 import Link from 'next/link';
 import Image from 'next/image';
-import article1 from '../../public/images/articles/pagination component in reactjs.jpg';
+// import article1 from '../../public/images/articles/pagination component in reactjs.jpg';
 import { motion } from 'framer-motion';
 import TransitionEffect from '@/components/TransitionEffect';
 
@@ -54,7 +54,7 @@ const articles = () => {
                  Follow this step-by-step guide to integrate Pagination component in your ReactJS project."
                 time="9 min read"  
                 link="/"  
-                img={article1}           
+                // img={article1}           
                 />
                 <FeaturedArticles
                 title="Build A Custom Pagination Component In Reactjs From Scratch"
@@ -62,7 +62,7 @@ const articles = () => {
                  Follow this step-by-step guide to integrate Pagination component in your ReactJS project."
                 time="9 min read"  
                 link="/"  
-                img={article1}           
+                // img={article1}           
                 />
             </ul>
         </Layout>
